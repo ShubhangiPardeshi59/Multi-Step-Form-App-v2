@@ -1,0 +1,27 @@
+
+.form-group{
+    margin-bottom: 1rem;
+}
+.form-group label{
+    font-size: 0.8rem;
+    font-weight:bold;
+    color: hsl(213, 96%, 18%);
+}
+
+.form-group input{
+    border-radius: 6px;
+}
+
+.errorMessage{
+    float:right;
+    color:red;
+}
+
+.invalid{
+    border-color: red;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #ced4da;
+  }

@@ -1,0 +1,45 @@
+
+.page-l-container{
+    background-image: url("../assets/images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width:25%;
+    border-radius: 15px;
+    
+  }
+
+  .page-l-container-pageno{
+    margin:1rem 1.5rem;
+    display: flex;
+    line-height: 1rem;
+    gap:1rem;
+    color:rgb(209, 208, 208);
+    
+  }
+
+  .page-l-container-pageno p{
+    font-size: 0.8rem;
+    color:white;
+  }
+
+  .dot {
+    height: 35px;
+    width: 35px;
+    /* background-color: hsl(206, 94%, 87%); */
+    border-radius: 50%;
+    display: inline-block;
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 0.5rem;
+    border:1px solid white;
+    cursor: pointer;
+  }
+
+  .dot-active{
+    background-color: hsl(206, 94%, 87%);
+    border:none;
+    color:black;
+  }

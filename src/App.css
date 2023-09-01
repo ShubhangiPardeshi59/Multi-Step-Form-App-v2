@@ -1,0 +1,52 @@
+.page-container{
+    background-color: white;
+    display: flex;
+    padding:1rem;
+    width:60%;
+    height:33rem;
+    border-radius: 10px;
+    margin:3.8rem 16rem;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.page-r-container{
+   padding-left:5rem;
+   padding-right:5rem;
+ 
+    
+}
+
+.page-r-container-header p{
+    color:hsl(231, 11%, 63%);
+    font-weight: bold;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+.footer .btn{
+    background-color: hsl(213, 96%, 18%);
+    color:white;
+    width:6rem;
+    cursor: pointer;
+    
+}
+.footer .btn:focus{
+    box-shadow: none;
+    border-color: #ced4da;
+}
+.go-back-link{
+    width:5rem;
+    color:hsl(231, 11%, 63%);
+    font-weight: bold;
+    padding-top: 0.9rem;
+    cursor: pointer;
+}
+
+.body{
+    height:65%;
+}

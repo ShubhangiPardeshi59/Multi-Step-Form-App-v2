@@ -1,0 +1,51 @@
+
+.charges-container{
+    padding:1rem;
+    background-color:  hsl(208, 55%, 94%);
+    border-radius: 10px;
+}
+
+
+.charges-container-top{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.plan-name, .charges-container-top-right{
+    color:hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+.change-link{
+    color:hsl(243, 100%, 62%);
+}
+
+.charges-container-ons{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.charges-container-ons-left, .total-amount-left{
+    color:hsl(231, 11%, 63%);
+}
+
+.charges-container-ons-right{
+    color:hsl(213, 96%, 18%);
+}
+
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    margin:1rem;
+}
+
+.total-amount-right{
+    color:hsl(243, 100%, 62%);
+    font-weight: bold;
+}
+
+
+#confirm-btn{
+    background-color:hsl(243, 100%, 62%);
+}

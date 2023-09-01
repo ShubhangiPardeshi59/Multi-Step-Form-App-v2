@@ -1,0 +1,19 @@
+.thank-you{
+    display:flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 8rem;
+}
+
+.thank-you-text{
+    text-align: center;
+    color:hsl(231, 11%, 63%);
+}
+
+.thank-you-heading h2{
+    margin-top:2rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    color:hsl(213, 96%, 18%);
+}

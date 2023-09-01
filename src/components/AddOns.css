@@ -1,0 +1,44 @@
+.add-ons{
+    padding:0.7rem;
+    margin-bottom: 1rem;
+    
+    display: flex;
+    gap : 2rem;
+    border-color: rgb(3, 3, 180);
+    border: 1px solid rgb(3, 3, 180);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.add-ons-checkbox input{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.checkbox1:checked{
+    background-color:blue;
+}
+.add-ons-text{
+    width:67%;
+}
+
+
+.add-ons-text1 {
+    color:hsl(213, 96%, 18%);
+    font-weight: bold;
+}
+
+.add-ons-text2{
+    color:hsl(231, 11%, 63%);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.add-ons-amount{
+    color: blue;
+}
+
+.ons-active{
+    border-color: hsl(243, 100%, 62%);
+  background-color: hsl(208, 55%, 94%); 
+}
